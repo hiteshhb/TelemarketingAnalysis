@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bank Product Subscription Prediction System</title>
+    <style>   
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+            z-index: -1;
+            display: flex;
+        }
+
+        body {
+          margin:0%;
+          font-family: Arial, Helvetica, sans-serif;
+          background-image: url("https://s31898.pcdn.co/wp-content/uploads/2022/12/fixed-deposite-1-800x400.jpg");
+          background-color: #a5f4f45f;
+          background-position: center;
+          background-repeat: no-repeat;
+          top: 0%;
+          bottom: 0%;
+          height: 655px;
+          background-size: 100% 100%;
+          position: relative;
+          
+        }
+          
+        h1,h3,p {
+            text-align: left;
+            z-index: 10;
+            opacity: 0.9;
+            position: relative;
+        }
+
+        form {
+            background-color: rgba(50, 111, 197, 0.807);
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            width: 35%;
+            position: relative;
+            z-index: 3;
+        }
+
+        input[type=text],
+        select {
+            width: 150px;
+            padding: 1px 20px;
+            margin: 8px 0px;
+            display: inline-block;
+            border: 1px solid #170e0e92;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: small;
+            cursor: pointer;
+            height: 20px;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #cce42e;
+            display: inline;
+            color: rgba(3, 10, 1, 0.977);
+            font-weight: bold;
+            font-size: 15px;
+            padding: auto;
+            border: 1px solid #dee81e92;
+            border-radius: 10px;
+            cursor: pointer;
+            align-self: center;
+        }
+
+        legend,label {
+            display: inline;
+            margin-bottom: 0px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            border-color: rgb(12, 11, 9);
+        }
+
+        p {
+            text-align: center;
+            margin-top: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            color: rgb(247, 237, 226);
+        }
+
+        input[type=radio] {
+            transform: scale(1.5);
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<video playsinline autoplay muted loop poster="cake.jpg" onloadstart="this.playbackRate = 1.4;">
+    <source src=""  type="video/mp4" >
+    Your browser does not support the video tag.
+</video>
+        <body >
+            <h1> Get Bank Product Subscription Prediction</h1>
+            <h4> <i>(Powered by Logistic Regression Algorithm) </i></h4>
+
+                <form method="GET" action ="/prediction" >
+                
+
+                    <label>Age:</label>
+                    <input type = "text" name = "age" size="5px">
+                    </select>
+
+                    <!-- <br> -->
+
+                    <label> Job: </label>
+                    <label for = "job">
+                    <select name = "job" id="job">
+                            <option value = "management">Management</option>
+                            <option value = "technician">Technician</option>
+                            <option value = "entrepreneur">Entrepreneur</option>
+                            <option value = "blue-collar">Blue-collar</option>
+                            <option value = "admin.">Admin</option>
+                            <option value = "services">Services</option>
+                            <option value = "self-employed">Self-employed</option>
+                            <option value = "retired">Retired</option>
+                            <option value = "student">Student</option>
+                            <option value = "housemaid">Housemaid</option>
+                            <option value = "unemployed">Unemployed</option>
+                            <option value = "unknown">Unknown</option>
+                    </select>
+
+                    <br>
+
+                    <label> Marital: </label>
+                    <label for = "marital">
+                    <select name = "marital" id="marital">
+                            <option value = "married">married</option>
+                            <option value = "single">single</option>
+                            <option value = "divorced">divorced</option>
+                    </select>
+  
+                    <!-- <br> -->
+
+                    <label> Education: </label>
+                    <label for = "education">
+                    <select name = "education" id="education">
+                            <option value = "primary">Primary</option>
+                            <option value = "secondary">Secondary</option>
+                            <option value = "tertiary">Tertiary</option>
+                            <option value = "unknown">Unknown</option>
+                    </select>
+ 
+                    <br>
+
+                    <label> Contact: </label>
+                    <label for = "contact">
+                    <select name = "contact" id="contact">
+                            <option value = "cellular">Cellular</option>
+                            <option value = "telephone">Telephone</option>
+                            <option value = "unknown">Unknown</option>
+                    </select>
+  
+                    <!-- <br> -->
+
+                    <label> Poutcome: </label>
+                    <label for = "poutcome">
+                    <select name = "poutcome" id="poutcome">
+                            <option value = "success">Success</option>
+                            <option value = "failure">Failure</option>
+                            <option value = "unknown">Unknown</option>
+                            <option value = "other">Other</option>
+                    </select>
+   
+                    <br>
+
+                    <label> Default: </label>
+                    <label for = "default">
+                    <select name = "default" id="default">
+                            <option value = "no">No</option>
+                            <option value = "yes">Yes</option>
+                    </select>
+
+                    <!-- <br> -->
+
+                    <label> Housing: </label>
+                    <label for = "housing">
+                    <select name = "housing" id="housing">
+                            <option value = "no">No</option>
+                            <option value = "yes">Yes</option>
+                    </select>
+
+                    <br>
+
+                    <label> Loan: </label>
+                    <label for = "loan">
+                    <select name = "loan" id="loan">
+                            <option value = "no">No</option>
+                            <option value = "yes">Yes</option>
+                    </select>
+
+                    <!-- <br> -->
+
+                    <label>Balance:</label>
+                    <input type = "text" name = "balance" size="5px">
+                    </select>
+
+                    <br>
+                    
+                    <label>Day:</label>
+                    <input type = "text" name = "day" size="5px">
+                    </select>
+  
+                    <!-- <br> -->
+
+                    <label> Month: </label>
+                    <label for = "month">
+                    <select name = "month" id="month">
+                            <option value = "jan">January</option>
+                            <option value = "feb">February</option>
+                            <option value = "mar">March</option>
+                            <option value = "apr">April</option>
+                            <option value = "may">May</option>
+                            <option value = "jun">June</option>
+                            <option value = "jul">July</option>
+                            <option value = "aug">August</option>
+                            <option value = "sep">September</option>
+                            <option value = "oct">October</option>
+                            <option value = "nov">November</option>
+                            <option value = "dec">December</option>
+                    </select>
+
+                    <br><label>Duration:</label>
+                    <input type = "text" name = "duration" size="5px">
+                    </select>
+
+                    <!-- <br> -->
+                    
+                    <label>Campaign:</label>
+                    <input type = "text" name = "campaign" size="5px">
+                    </select>
+
+                    <br><label>pdays:</label>
+                    <input type = "text" name = "pdays" size="5px">
+                    </select>
+
+                    <!-- <br> -->
+                    
+                    <label>previous:</label>
+                    <input type = "text" name = "previous" size="5px">
+                    </select>
+
+                    <br>
+
+                    <input type = "submit" value = "SUBMIT" style="height:25px; width:120px; ">
+
+                    <br>
+                    <p> <b>{{ prediction }}</b> </p>
+
+                </form>
+        </body>
+    
+</html>
