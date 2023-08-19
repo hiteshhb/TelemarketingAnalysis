@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+
+*.csv
+*.jpg
+*.png
+**.csv
+**.jpg
+**.png
+*.pptx
+**.pptx
+*.pem
+**.pem
